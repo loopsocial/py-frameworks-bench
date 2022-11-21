@@ -81,11 +81,11 @@ jobs:
           name: fastapi
           network: data
 
-      - name: Benchmark Emmett
-        uses: ./.github/actions/benchmark
-        with:
-          name: emmett
-          network: data
+      # - name: Benchmark Emmett
+      #   uses: ./.github/actions/benchmark
+      #   with:
+      #     name: emmett
+      #     network: data
 
       - name: Benchmark Tornado
         uses: ./.github/actions/benchmark
