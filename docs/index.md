@@ -29,11 +29,11 @@ queries), routing, responses.
     var myChart = new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['blacksheep','muffin','sanic','falcon','starlette','baize','fastapi','aiohttp','quart','tornado','django',],
+            labels: ['blacksheep','muffin','sanic','falcon','starlette','baize','aiohttp','fastapi','tornado','quart','django',],
             datasets: [
                 {
                     label: '# of requests',
-                    data: ['381615','329205','318495','280935','242190','238515','158475','139560','83595','73080','27210',],
+                    data: ['460680','423600','413070','391725','323850','307605','168270','137835','108285','101010','40170',],
                     backgroundColor: [
                         '#4E79A7', '#A0CBE8', '#F28E2B', '#FFBE7D', '#59A14F', '#8CD17D', '#B6992D', '#F1CE63', '#499894', '#86BCB6', '#E15759', '#FF9D9A', '#79706E', '#BAB0AC', '#D37295', '#FABFD2', '#B07AA1', '#D4A6C8', '#9D7660', '#D7B5A6',
                     ]
@@ -47,17 +47,17 @@ Sorted by sum of completed requests
 
 | Framework | Requests completed | Avg Latency 50% (ms) | Avg Latency 75% (ms) | Avg Latency (ms) |
 | --------- | -----------------: | -------------------: | -------------------: | ---------------: |
-| [blacksheep](https://pypi.org/project/blacksheep/) `1.2.8` | 381615 | 7.92 | 13.28 | 9.69
-| [muffin](https://pypi.org/project/muffin/) `0.87.3` | 329205 | 9.72 | 16.38 | 11.85
-| [sanic](https://pypi.org/project/sanic/) `22.9.1` | 318495 | 8.87 | 14.83 | 11.03
-| [falcon](https://pypi.org/project/falcon/) `3.1.1` | 280935 | 12.37 | 16.9 | 14.87
-| [starlette](https://pypi.org/project/starlette/) `0.22.0` | 242190 | 16.59 | 20.2 | 19.49
-| [baize](https://pypi.org/project/baize/) `0.18.2` | 238515 | 17.34 | 20.45 | 18.11
-| [fastapi](https://pypi.org/project/fastapi/) `0.87.0` | 158475 | 20.42 | 25.45 | 24.22
-| [aiohttp](https://pypi.org/project/aiohttp/) `3.8.3` | 139560 | 24.46 | 25.54 | 24.63
-| [quart](https://pypi.org/project/quart/) `0.18.3` | 83595 | 36.36 | 39.65 | 37.13
-| [tornado](https://pypi.org/project/tornado/) `6.2` | 73080 | 39.92 | 41.17 | 40.54
-| [django](https://pypi.org/project/django/) `4.1.3` | 27210 | 100.22 | 118.82 | 107.99
+| [blacksheep](https://pypi.org/project/blacksheep/) `1.2.8` | 460680 | 6.27 | 10.79 | 7.95
+| [muffin](https://pypi.org/project/muffin/) `0.87.3` | 423600 | 7.3 | 12.61 | 9.27
+| [sanic](https://pypi.org/project/sanic/) `22.9.1` | 413070 | 10.27 | 11.22 | 8.76
+| [falcon](https://pypi.org/project/falcon/) `3.1.1` | 391725 | 8.6 | 14.33 | 10.79
+| [starlette](https://pypi.org/project/starlette/) `0.22.0` | 323850 | 11.84 | 19.72 | 14.77
+| [baize](https://pypi.org/project/baize/) `0.18.2` | 307605 | 13.61 | 15.63 | 14.03
+| [aiohttp](https://pypi.org/project/aiohttp/) `3.8.3` | 168270 | 21.77 | 21.95 | 21.8
+| [fastapi](https://pypi.org/project/fastapi/) `0.87.0` | 137835 | 20.59 | 37.59 | 26.1
+| [tornado](https://pypi.org/project/tornado/) `6.2` | 108285 | 27.64 | 27.97 | 27.59
+| [quart](https://pypi.org/project/quart/) `0.18.3` | 101010 | 30.72 | 31.9 | 30.72
+| [django](https://pypi.org/project/django/) `4.1.3` | 40170 | 69.61 | 78.38 | 73.73
 
 
 More details: [Results (2022-11-21)](_posts/2022-11-21-results.md)
